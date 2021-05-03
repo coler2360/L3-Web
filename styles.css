@@ -1,0 +1,132 @@
+@font-face {
+    font-family: fonty;
+    src: url(Fonts/Main.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px 0px;
+}
+
+header h1 {
+    grid-column: 2/3;
+    color: white;
+    font-family: fonty;
+    font-size: 1.8vw;
+    justify-self: center;
+}
+
+.right {
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px 5%;
+}
+
+.right p {
+    margin-bottom: 1%;
+}
+
+
+/*
+h1 {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 200%;
+
+}
+*/
+
+nav {
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.links {
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0px 5%;
+}
+
+.logo {
+    width: 40%;
+   
+}
+
+.cart {
+    display: flex;
+}
+
+.cart img {
+    width: 20%;
+    margin: 0px 8%;
+}
+
+section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: inline-grid;
+    font-family: fonty;
+
+}
+
+.Sleft {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: inline-grid;
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.Sright {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: inline-grid;
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.Wbucket {
+    height: 50px;
+    width: 50px;
+    grid-column-start: 1 ;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Bbucket {
+    height: 8%;
+    width: 8%;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
