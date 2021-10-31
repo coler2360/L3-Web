@@ -63,11 +63,16 @@ nav {
     justify-self: center;
     font-size: 1.5vw;
     text-align: center;
+    display: inline-flex;
+
+
 }
 
 .links a {
     text-decoration: none;
     margin: 0px 5%;
+    color: black;
+    
 }
 
 .logo {
@@ -76,8 +81,16 @@ nav {
 }
 
 .cart {
-    display: flex;
+      justify-self: center;
+    font-size: 1.5vw;
+    text-align: center;
+    display: inline-flex;
+ }
 
+.cart a {
+    text-decoration: none;
+    margin: 0px 5%;
+    color: black;
 }
 
 .cart img {
@@ -133,4 +146,40 @@ section {
     width: 100%;
     grid-column: 1/2;
     grid-row: 2/3;
+}
+
+.item1 {
+    background-color: slategray;
+    
+}
+
+.item2 {
+    background-color: slategray;
+}
+
+.item3 {
+    background-color: slategray;
+}
+.item4 {
+    background-color: slategray;
+}
+footer {
+  display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    width: 100%;
+    align-content: center;
+    grid-gap: 20px;
+    margin: 20px 10%;
+}
+
+.promo {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.promo img {
+    width: 100%;
 }
