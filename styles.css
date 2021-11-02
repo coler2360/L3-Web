@@ -57,7 +57,7 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     border-bottom: 8%;
-    border-bottom-color: dimgrey;
+    background-color:  floralwhite;
 }
 
 .links {
@@ -164,11 +164,11 @@ section {
 .item4 {
     background-color: slategray;
 }
-footer {
+footercart {
   display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    background-color: white;
+    background-color: black;
     width: 100%;
     align-content: center;
     grid-gap: 20px;
@@ -202,7 +202,7 @@ footer {
 
 .jsCart {
     display: inline-block;
-    color: red;
+    color: deepskyblue;
     margin: 0px 20px;
 }
 
@@ -211,13 +211,14 @@ footer {
     display: inline-flex;
     /*    flex-direction: row-reverse;*/
     place-items: center;
-    color: red;
+    color: deepskyblue;
 }
 
   ul {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, auto));
         grid-gap: 10px;
+      background-color: black;
     }
 
     .section2 {
@@ -238,7 +239,7 @@ footer {
 
     .BoxLeft {
     grid-column: 1/2;
-/*    border-right: 5px groove white;*/
+
 
     display: flex;
     flex-direction: column;
@@ -255,90 +256,59 @@ footer {
 }
 
 li input {
-    /*    justify-items: start;*/
+ 
     align-self: start;
     padding: 0px;
     margin: 5px;
     width: 70%;
 }
 
-/* button styles*/
 
-li button:hover {
-    background-color: grey;
-}
 
 li button {
 
-    border: 2px ridge yellow;
+    border: 2px ridge purple;
     border-radius: 2px;
     padding: 1px;
 }
 
 li {
     width: 100%;
-    background-color: black;
+    background-color: darkgray;
     list-style: none;
     margin-bottom: 10px;
 
 }
 
-/*hat img in li element*/
+
+
 
 li img {
 
-    width: 100%;
-    border: 3px rgb(206, 14, 14);
+    width: 70%;
+    border: 3px deepskyblue;
     border-style: ridge;
 }
 
-.boxTop {
-    grid-column: 3/5;
-    grid-row: auto;
-}
 
-.boxMid2 {
-    grid-column: 3/5;
-    grid-row: 2/3;
-    display: grid;
-
-    /*    background: linear-gradient(0deg, rgb(24, 3, 3), rgb(102, 12, 15) 100%);*/
-
-    justify-self: start;
-    align-self: center;
-    /*    border-bottom: 2px solid white;*/
-
-
-
-}
-
-
-.boxMid2 h1 {
+li h2 {
+    /*    margin: 10px;*/
+    font-size: 18px;
+    text-align: center;
     justify-self: center;
-    font-size: 1.4vw;
-    /*    border-bottom: 2px solid white;*/
 }
 
-.boxText {
-
-    grid-column: 2/6;
-    grid-row: 3/4;
-    display: grid;
-    justify-self: start;
+h3 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Century Gothic';
     align-self: center;
+    margin: 20px 0px;
 }
 
-.boxText h1 {
 
-    /*    border-bottom: 2px solid white;*/
-    font-size: 1.4vw;
-}
-
-.fist {
-    width: 40%;
-    justify-self: center;
-    grid-column: 3/5;
-
+li button:hover {
+    background-color: grey;
 }
 
 .bottomleft {
@@ -373,19 +343,13 @@ hr {
 
 }
 
-/*          shop.html           */
-/*          shop page styles                    */
 
-.underNav {
-    text-align: center;
-    margin-top: 10px;
-    display: grid;
-    align-self: center;
-    justify-content: space-around;
+.footerCart {
+    margin-top: 5%;
 }
 
 .clickMe {
-    background-color: rgb(206, 14, 14);
+    background-color: dimgrey;
     text-align: center;
 }
 
@@ -400,12 +364,10 @@ hr {
     display: inline-flex;
     /*    flex-direction: row-reverse;*/
     place-items: center;
-    color: red;
+    color: deepskyblue;
 }
 
 
-
-/*shop section content and alignments with JS products*/
 .section3 {
 
     display: grid;
@@ -432,10 +394,6 @@ hr {
     text-align: center;
 
 
-
-
-
-
 }
 
 .submid {
@@ -450,17 +408,6 @@ hr {
 
 }
 
-/*
-.info {
-   
-    grid-column: 2/3;
-    grid-row: 1/2;
-    padding-right: 5px;
-
-    text-align: center;
-    justify-self: center;
-}
-*/
 
 .subright {
 
@@ -472,45 +419,16 @@ hr {
 
     justify-self: start;
     text-align: center;
-
-
 }
 
 .cr {
-    color: red;
+    color: deepskyblue;
     align-self: end;
     text-align: center;
 }
 
 html {
     height: 100vh;
-}
-
-
-
-
-/*          about.html css          */
-/*          about page styles       */
-
-
-
-
-.section2 {
-    grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
-    grid-template-rows: auto;
-    display: grid;
-
-    height: 100%;
-    width: 60vw;
-    padding-bottom: 20px;
-
-
-
-    margin: 5% auto;
-    grid-row-gap: 6vh;
-    place-items: stretch;
-    background: linear-gradient(180deg, rgb(24, 3, 3), rgb(102, 12, 15) 100%);
-    text-align: center;
 }
 
 .bottomleft {
