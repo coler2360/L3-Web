@@ -1,10 +1,10 @@
 var items = [
-    ['Images/blackbeanie', 29.99, 'Devout Black Beanie'],
-    ['Images/BlackBucketHat', 29.99, 'Devout Black Bucket Hat'],
-    ['Images/whitebuckethat', 29.99, 'Devout White Bucket Hat'],
-    ['Images/black', 29.99, 'Devout Black Cap'],
-    ['Images/WhiteCap', 29.99, 'Devout White Cap'],
-    ['Images/washedgrey', 29.99, 'Devout Washed Grey Cap']
+    ['Images/blackbeanie.png', 29.99, 'Devout Black Beanie'],
+    ['Images/BlackBucketHat.png', 29.99, 'Devout Black Bucket Hat'],
+    ['Images/whitebuckethat.png', 29.99, 'Devout White Bucket Hat'],
+    ['Images/black.png', 29.99, 'Devout Black Cap'],
+    ['Images/WhiteCap.png', 29.99, 'Devout White Cap'],
+    ['Images/washedgrey.png', 29.99, 'Devout Washed Grey Cap']
 
 ];
 //empty var for array
